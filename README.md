@@ -63,7 +63,7 @@ We tested the fine-tuned GIT model on custom images. Here, we present a demo pre
 ### Florence-2 Model Predictions
 We tested the fine-tuned Florence-2 model on custom images. Here, we present a demo prediction from the fine-tuned GIT model on a large dataset.
 
-![Florence-2 Model Predictions](imgCustom.png)
+![Florence-2 Model Predictions](img/Custom.png)
 
 ### Known Issue with Florence-2 Model
 Upon pushing the Florence-2 model to Hugging Face, we encountered an error related to the model’s architecture, which was based on DaViT. The issue was resolved by updating the `config.json` file to include the correct `vision_config` parameter. You can review the [config.json file here](https://huggingface.co/arad1367/Florence-2-Liechtenstein-TA-OCR-VQA-modified/blob/main/config.json).
